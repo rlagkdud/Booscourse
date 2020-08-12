@@ -9,7 +9,7 @@ int main(void) {
      int row = sizeof(arr) / sizeof(arr[0]);
     for(int i=0;i<row;i++){
     	for(int j =0;j<col;j++){
-    		printf("%d ",*(p[i]+j));
+    		printf("%d\t",*(p[i]+j));
     	}
     	printf("\n");
     }
