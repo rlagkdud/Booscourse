@@ -23,12 +23,7 @@ int main()
     }
 
     qsort(divisor, N, sizeof(int), compare);
-    /*
-    for(int i=0; i<N; i++){
-        printf("%d ",divisor[i]);
-    }
-    printf("\n");
-*/
+    
     int count = 0;
     for (int i = 0; i < N; i++)
     {
@@ -40,10 +35,10 @@ int main()
         {
             break;
         }
+    }
 
         int answer = divisor[count] * divisor[N - 1]; /**여기를 채우세요.**/
-        ;
         printf("%d\n", answer);
 
         return 0;
-    }
+}
