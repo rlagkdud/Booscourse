@@ -32,7 +32,7 @@ int main(void)
         scanf("%d", &tmp);
         nums[i] = tmp;
     }
-    /*정렬하고 그 다음에 중복제거하쟈*/
+    
     sort(nums, N);
 
     for (int i = 0; i < N; i++)
