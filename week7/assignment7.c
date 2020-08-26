@@ -24,21 +24,9 @@ int main()
 
     qsort(divisor, N, sizeof(int), compare);
     
-    int count = 0;
-    for (int i = 0; i < N; i++)
-    {
-        if (divisor[i] == 0)
-        {
-            count++;
-        }
-        else
-        {
-            break;
-        }
-    }
+    
 
-        int answer = divisor[count] * divisor[N - 1]; /**여기를 채우세요.**/
-        printf("%d\n", answer);
-
-        return 0;
+    int answer = divisor[0] * divisor[N - 1]; /**여기를 채우세요.**/
+    printf("%d\n", answer);
+    return 0;
 }

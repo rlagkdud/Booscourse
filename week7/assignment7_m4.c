@@ -32,7 +32,7 @@ int main(void)
         scanf("%d", &tmp);
         nums[i] = tmp;
     }
-    
+
     sort(nums, N);
 
     for (int i = 0; i < N; i++)
